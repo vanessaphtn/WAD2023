@@ -1,14 +1,16 @@
 .header {
+    display: flex;
     padding-top: .5em;
     padding-bottom: .5em;
     border: 1px solid #646174;
-    background-color: lightgray;
+    background-color: rgb(161, 159, 159);
     border-radius: 5px;
 }
 
 .nav li{
     display: inline;
     margin-right: 20px;
+}
 
 .logo{
     position: absolute;
@@ -19,7 +21,7 @@
     display: inline;
     position: fixed;
     bottom: 1%;
-    background-color: lightgray;
+    background-color: rgb(161, 159, 159);;
     border: 1px solid #646174;
     border-radius: 5px;
     width: 98.9%;
