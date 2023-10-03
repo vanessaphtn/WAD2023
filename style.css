@@ -1,0 +1,24 @@
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #646174;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: lightgray;
+    border: 1px solid #646174;
+    border-radius: 5px;
+    width: 98.9%;
+    box-sizing: border-box;
+}
+
+.footer h1{
+    text-align: center;
+}
