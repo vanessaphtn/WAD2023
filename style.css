@@ -8,8 +8,7 @@
 
 .nav li{
     display: inline;
-    margin-right: 20px; /* Lisa soovitud parempoolset polsterdust navigatsiooni üksuste vahel */
-}
+    margin-right: 20px;
 
 .logo{
     position: absolute;
