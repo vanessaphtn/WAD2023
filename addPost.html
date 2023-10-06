@@ -3,8 +3,34 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Add posts</title>
   </head>
+
+
   <body>
-    <h1>add post</h1>
+
+    <header class="header">
+      <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+      </ul>
+
+      <a class="logo" href="login.html"><img src="res/images/profile_icon.png" width="50" height="50" alt="profile_icon"></a>
+  </header>
+
+  <section>
+    <form method="get" action = "/addNewPost" class="newPostForm">
+      <table>
+      <tr>
+      <td><label for="postBody">Post body: </label></td>
+      <td><textarea id="postBody" name="postBody"></textarea></td>
+    </tr>
+      <tr>
+      <td><label for="selectFile">Select file: </label></td>
+      <td><input type="file" id="selectFile" name="filename"></td>
+    </tr>
+    </table>
+      <button type="button" onclick="window.location.href = 'index.html';">CREATE POST</button>
+    </form>
+  </section>
   </body>
