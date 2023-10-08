@@ -3,8 +3,31 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add posts</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
-    <h1>login</h1>
+  <header class="header">
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+    </ul>
+
+    <a class="logo" href="login.html"><img src="res/images/profile_icon.png" width="50" height="50" alt="profile_icon"></a>
+  </header>
+    <section>
+      <form method="get" action="" class="loginForm">
+        <h1>Welcome to PostIt</h1>
+        <a href="">Create an account</a>
+        <p>or</p>
+        <p>Please log in</p>
+        <input type="text" name="email" placeholder="Email">
+        <br>
+        <input type="text" name="password" placeholder="Password">
+        <br>
+        <button onclick="window.location.href = 'index.html'">Log in</button>
+        <br>
+        <a href="">Forget password</a>
+      </form>
+    </section>
   </body>
