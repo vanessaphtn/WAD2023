@@ -34,7 +34,7 @@
     border-right: none;
 }
 
-.logo {
+#logo {
     position: absolute;
     right: 4%;
     top: 4%;
@@ -141,7 +141,7 @@
     position:relative;
 }
 
-.footer {
+div + footer {
     background-color: #7180AC;
     border: 1px solid #646174;
     border-radius: 5px;
@@ -150,7 +150,7 @@
     margin-top: 5px;
 }
 
-.footer h1 {
+footer h1 {
     text-align: center;
 }
 
@@ -212,7 +212,7 @@ textarea {
     resize: none;
 }
 
-section button {
+table ~ button {
     background-color: #E49273;
     margin: 30px;
     border: none;
@@ -225,7 +225,7 @@ section button {
 }
 
 
-section button:hover {
+table ~ button:hover {
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.20), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     color: #e1dbdc;
 }
@@ -250,13 +250,8 @@ section button:hover {
     textarea {
         width: 60%;
     }
-    section button {
+    table ~ button {
         padding: 5px 15px;
         min-width: 80px;
     }
 }
-
-/**
- Use an Adjacent Sibling Selector (e.g., div + p)
- Use a General Sibling Selector (e.g., div ~ p)
- Use an ID selector*/

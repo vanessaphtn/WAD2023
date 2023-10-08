@@ -13,19 +13,19 @@
       <li><a href="index.html">Home</a></li>
     </ul>
 
-    <a class="logo" href="login.html"><img src="res/images/profile_icon.png" width="50" height="50" alt="profile_icon"></a>
+    <a id="logo" href="login.html"><img src="res/images/profile_icon.png" width="50" height="50" alt="profile_icon"></a>
   </header>
     <section>
-      <form method="get" action="" class="loginForm">
+      <form method="get" action="index.html" class="loginForm">
         <h1>Welcome to PostIt</h1>
         <a href="">Create an account</a>
         <p>or</p>
         <p>Please log in</p>
-        <input type="text" name="email" placeholder="Email" min="1">
+        <input type="text" name="email" placeholder="Email" min="1" required>
         <br>
-        <input type="text" name="password" placeholder="Password" minlength="1">
+        <input type="password" name="password" placeholder="Password" min="1" required>
         <br>
-        <button type ="submit" onclick="window.location.href = 'index.html'">Log in</button>
+        <button type ="submit">Log in</button>
         <br>
         <a href="">Forget password</a>
       </form>
