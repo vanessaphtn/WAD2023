@@ -40,15 +40,114 @@
     top: 4%;
 }
 
-.footer {
-    display: inline;
-    position: fixed;
-    bottom: 1%;
-    background-color: rgb(161, 159, 159);
-    ;
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.left-box {
+    background-color: #7180AC;
     border: 1px solid #646174;
     border-radius: 5px;
-    width: 98.9%;
+    width: 10%;
+    min-height: 100%;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.right-box {
+    background-color: #7180AC;
+    border: 1px solid #646174;
+    border-radius: 5px;
+    width: 10%;
+    min-height: 100%;
+    margin-bottom: 5px;
+    margin-left: 10px; 
+}
+
+.middle-box{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    margin-bottom: 5px;
+    margin-left: 10px; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-box{
+    background-color: lightgray;
+    border: 1px solid #646174;
+    border-radius: 5px;
+    width: 75%; 
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-box-image{
+    text-align: left;
+    margin-top: 5px;
+}
+
+.comment-box-text{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.centered-image{
+    padding-top: 40px;
+    width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+}
+
+.image-top-left{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top:0;
+    left:0;
+    padding: 5px 10px;
+}
+
+.image-bottom-left{
+    padding-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.date{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+}
+
+.text-box{
+    background-color: lightgray;
+    border: 1px solid #646174;
+    border-radius: 5px;
+    width: 75%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #646174;
+    margin: 5px;
+    border-radius: 5px;
+    position:relative;
+}
+
+.footer {
+    background-color: #7180AC;
+    border: 1px solid #646174;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    width: 100%;
+    margin-top: 5px;
 }
 
 .footer h1 {
