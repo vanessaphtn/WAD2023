@@ -34,6 +34,20 @@
     border-right: none;
 }
 
+.dropdown{
+    display: inline;
+    position: absolute;
+    right: 130px;
+    top: 85px;
+}
+.dropdown div{
+    padding: 5px 5px;
+    position: absolute;
+    background-color: #c5cdea;
+    border-radius: 5px;
+    display: none;
+}
+
 #logo {
     position: absolute;
     right: 4%;
