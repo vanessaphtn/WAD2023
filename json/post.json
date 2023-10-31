@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "content": "Tartu 2024",
+        "createTime": "2023-10-31T10:00:00Z",
+        "author": {
+            "name": "John Doe",
+            "username": "johndoe123"
+        },
+        "image": "res/images/tartu2024.jpg",
+        "profile": "res/images/profile_icon.png",
+        "like": "res/images/like.jpg"
+    },
+    {
+        "id": 2,
+        "content": "University of Tartu",
+        "createTime": "2023-10-31T10:00:00Z",
+        "author": {
+            "name": "Mary Doe",
+            "username": "mary123"
+        },
+        "image": "res/images/University of Tartu.jpg",
+        "profile": "res/images/profile_icon.png",
+        "like": "res/images/like.jpg"
+    },
+    {
+        "id": 3,
+        "content": "Upside down house",
+        "createTime": "2023-10-31T10:00:00Z",
+        "author": {
+            "name": "James Tree",
+            "username": "TreeJames"
+        },
+        "image": "res/images/tagurpidi_maja.jfif",
+        "profile": "res/images/profile_icon.png",
+        "like": "res/images/like.jpg"
+    },
+    {
+        "id": 4,
+        "content": "Jüri Arrak 'Taxi'",
+        "createTime": "2023-10-31T10:00:00Z",
+        "author": {
+            "name": "Liza Cat",
+            "username": "ArrakFan"
+        },
+        "image": "res/images/jyriArrak.JPG",
+        "profile": "res/images/profile_icon.png",
+        "like": "res/images/like.jpg"
+    },
+    {
+        "id": 5,
+        "content": "My bird Cherry",
+        "createTime": "2023-10-31T10:00:00Z",
+        "author": {
+            "name": "Alan Walker",
+            "username": "alan11"
+        },
+        "image": "res/images/parrot.jpg",
+        "profile": "res/images/profile_icon.png",
+        "like": "res/images/like.jpg"
+    },
+    {
+        "id": 6,
+        "content": "This is Norway",
+        "createTime": "2023-10-31T10:00:00Z",
+        "author": {
+            "name": "Hans Bob",
+            "username": "HansBob"
+        },
+        "image": "res/images/norway.jpeg",
+        "profile": "res/images/profile_icon.png",
+        "like": "res/images/like.jpg"
+    },
+    {
+        "id": 7,
+        "content": "I study in Delta",
+        "createTime": "2023-10-31T10:00:00Z",
+        "author": {
+            "name": "Ines Duck",
+            "username": "Duck123"
+        },
+        "image": "res/images/delta.jpg",
+        "profile": "res/images/profile_icon.png",
+        "like": "res/images/like.jpg"
+    },
+    {
+        "id": 8,
+        "content": "Currently travelling",
+        "createTime": "2023-10-31T10:00:00Z",
+        "author": {
+            "name": "Chad Brad",
+            "username": "Chad98"
+        },
+        "image": "res/images/airplane.jpeg",
+        "profile": "res/images/profile_icon.png",
+        "like": "res/images/like.jpg"
+    },
+    {
+        "id": 9,
+        "content": "I cooked for my grandchildren",
+        "createTime": "2023-10-31T10:00:00Z",
+        "author": {
+            "name": "Granny",
+            "username": "OldGranny"
+        },
+        "image": "res/images/food.jpeg",
+        "profile": "res/images/profile_icon.png",
+        "like": "res/images/like.jpg"
+    },
+    {
+        "id": 10,
+        "content": "See you soon :)",
+        "createTime": "2023-10-31T10:00:00Z",
+        "author": {
+            "name": "Saint Nicholas",
+            "username": "SantaClaus"
+        },
+        "image": "res/images/santa.jpeg",
+        "profile": "res/images/profile_icon.png",
+        "like": "res/images/like.jpg"
+    }
+
+]
