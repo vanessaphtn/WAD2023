@@ -1,8 +1,8 @@
 function showDropdown() {
     let menu = document.getElementById("showDrop")
-    if (menu.style.display === "none"){
+    if (menu.style.display === "none") {
         menu.style.display = "block"
-    }else{
+    } else {
         menu.style.display = "none"
     }
 }
