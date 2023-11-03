@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
-  </head>
+</head>
 
-  <body>
-  <header class="header">
+<body>
+<header class="header">
     <ul class="nav">
-      <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
     </ul>
 
-    <a id="logo" href="login.html"><img src="res/images/profile_icon.png" width="50" height="50" alt="profile_icon"></a>
-  </header>
-    <section>
-      <form method="get" action="index.html" class="loginForm">
+    <a id="logo" onclick="showDropdown()"><img src="res/images/profile_icon.png" width="50" height="50"
+                                               alt="profile_icon"></a>
+</header>
+<aside class="dropdown">
+    <div id="showDrop">
+        <p>John Doe</p>
+        <p>john.doe@ut.ee</p>
+        <p>logout</p>
+    </div>
+</aside>
+<section>
+    <form method="get" action="index.html" class="loginForm">
         <h1>Welcome to PostIt</h1>
         <a href="">Create an account</a>
         <p>or</p>
@@ -25,9 +33,10 @@
         <br>
         <input type="password" name="password" placeholder="Password" min="1" required>
         <br>
-        <button type ="submit">Log in</button>
+        <button type="submit">Log in</button>
         <br>
         <a href="">Forget password</a>
-      </form>
-    </section>
-  </body>
+    </form>
+</section>
+<script src="dropdown.js"></script>
+</body>

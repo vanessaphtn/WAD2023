@@ -13,9 +13,17 @@
         <ul class="nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="addPost.html">AddPost</a></li>
+            <li><a href="login.html">Login</a></li>
         </ul>
-        <a id="logo" href="#"><img src="res/images/profile_icon.png" width="50" height="50" alt="profile_icon"></a>
+        <a id="logo" onclick="showDropdown()"><img src="res/images/profile_icon.png" width="50" height="50" alt="profile_icon"></a>
     </div>
+    <aside class="dropdown">
+        <div id="showDrop">
+            <p>John Doe</p>
+            <p>john.doe@ut.ee</p>
+            <p>logout</p>
+        </div>
+    </aside>
     <div class="content">
         <div class="left-box"></div>
         <div class="middle-box">
@@ -70,5 +78,5 @@
     <footer>
         <h1>Footer</h1>
     </footer>
-    
+    <script src="dropdown.js"></script>
   </body>

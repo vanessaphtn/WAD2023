@@ -6,17 +6,20 @@
     <link rel="stylesheet" href="style.css">
     <title>Add posts</title>
   </head>
-
-
   <body>
-
     <header class="header">
       <ul class="nav">
-          <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
       </ul>
-
-      <a id="logo" href="login.html"><img src="res/images/profile_icon.png" width="50" height="50" alt="profile_icon"></a>
-  </header>
+      <a id="logo" onclick="showDropdown()"><img src="res/images/profile_icon.png" width="50" height="50" alt="profile_icon"></a>
+    </header>
+    <aside class="dropdown">
+      <div id="showDrop">
+        <p>John Doe</p>
+        <p>john.doe@ut.ee</p>
+        <p>logout</p>
+      </div>
+    </aside>
 
   <section>
     <form method="get" action = "/addNewPost" class="newPostForm">
@@ -33,4 +36,5 @@
       <button type="button" onclick="window.location.href = 'index.html';">CREATE POST</button>
     </form>
   </section>
+    <script src="dropdown.js"></script>
   </body>
