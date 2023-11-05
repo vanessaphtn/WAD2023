@@ -266,20 +266,36 @@ table ~ button:hover {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
     section form {
         margin: auto;
         flex-direction: column;
         display: flex;
     }
-}
 
-@media (max-width: 400px){
-    textarea {
-        width: 60%;
+    .header {
+        display: flex;
+        align-items: flex-start; 
+        padding-right: 60px;
+        font-size: 0.8em;
     }
-    table ~ button {
-        padding: 5px 15px;
-        min-width: 80px;
+
+    #logo{
+
+    }
+
+
+    .image-top-left {
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        top:0;
+        left:0;
+        padding: 5px 5px;
+    }
+
+    .date {
+        font-size: 0.8em;
+        margin-top: 5px; 
     }
 }
